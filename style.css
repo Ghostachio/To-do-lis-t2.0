@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: #F38181;
+}
+
+li{
+  color:#F38181;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #F38181;
+}
+.list{
+  display: flex;
+  flex: 1,1, auto;
+  flex-direction: column;
+  background-color: beige;
+  width: 600px;
+  min-height: 40vh;
+  border-radius: 30px;
+  
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+  padding: 40px 40px;
+  width: 600px;
+  height: 60px;
+}
+
+.search{
+  width: 600px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content:space-between;
+  padding:0px 50px;
+  margin-bottom: 20px;
+}
+
+
+.searchBox{
+  text-align: center;
+  font-size: large;
+  width: 320px;
+  height: 30px;
+  padding: 10px  ;
+  border-radius: 40px;
+  border-style: none;
+}
+
+
+.search button{
+  color: #F38181;
+  font-weight: bold;
+  font-size: large;
+  justify-self: end;
+  width: 150px;
+  height: 30px;
+  background-color: #FCE38A;
+  border: none;
+  border-radius: 40px;
+}
+.tasks{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 500px;
+  margin: 0px 30px;
+}
+.tasks ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #95E1D3;
+  border-radius: 40px;
+  padding-left: 30px;
+  padding-right: 5px ;
+}
+
+.search button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.dlt{
+  justify-self: flex-end;
+  background-color: #FCE38A;
+  color:#F38181;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  border-radius: 80px;
+  border: none;
+}
+
+
+.dlt:hover{
+  cursor: pointer;
+  scale: 1.1;
+  transition: 1.5s;
+
+}
+
+
+.check{
+  text-decoration: line-through;
+}
+
+.check:hover{
+  cursor: pointer;
+}
+
+.uncheck:hover{
+  cursor: pointer;  
+}
+
+
+
+
